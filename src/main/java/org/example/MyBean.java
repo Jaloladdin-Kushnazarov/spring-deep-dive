@@ -6,4 +6,13 @@ public class MyBean {
         System.out.println("hello PDP!");
         System.out.println("It's a my bean");
     }
+
+    public void init(){
+        System.out.println(" ---->>>>> init method");
+    }
+
+    public void destroy(){
+        System.out.println(" ---->>>>>  destroy method");
+    }
+
 }
