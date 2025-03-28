@@ -44,7 +44,7 @@ public class WebMvcConfiguration implements WebMvcConfigurer {
         viewResolver.setTemplateEngine(templateEngine());
         return viewResolver;
     }
-//bootstrap ishlatish uchun
+//bootstrap ishlatishc  uchun
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler ( "/css/*")
